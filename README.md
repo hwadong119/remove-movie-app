@@ -13,3 +13,17 @@ Roboto, Oswald 폰트 사용
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 ```
+
+## package.json 파일 수정
+Vercel Serverless Functions가 정상적으로 동작하기 위해 package.json 파일의 type 옵션을 요구
+
+package.json 파일에 다음과 같이 "type": "module" 옵션을 추가
+```json
+{
+  // ...
+  "description": "",
+  "type": "module",
+  "scripts": {
+  // ...
+}
+```
