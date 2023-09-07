@@ -1,3 +1,6 @@
+## 버셀 배포
+https://vanillajs-movie-app-eight.vercel.app/#/
+
 ## Reset.css
 브라우저의 기본 스타일 초기화
 
