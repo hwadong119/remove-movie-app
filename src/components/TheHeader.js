@@ -51,7 +51,7 @@ export default class TheHeader extends Component {
         </ul>
       </nav>
       <a href="#/about" class="user">
-        <img src="https://velog.velcdn.com/images/hwadong119/post/236383d0-9e4a-4fa7-bcf2-9b668ce8663b/image.png" alt="User" />
+        <img src="https://velog.velcdn.com/images/hwadong119/post/90ae1393-c882-4dd8-8b7e-8ea38386cd08/image.png" alt="User" />
       </a>
     `
   }
